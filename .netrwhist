@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/tyler/dev/projects/names'
+let g:netrw_dirhist_2='/home/tyler/dev/projects'
+let g:netrw_dirhist_1='/home/tyler/dev'
+let g:netrw_dirhist_0='/home/tyler/dev/projects/names/server'
+let g:netrw_dirhist_9='/home/tyler/dev/projects/names'
+let g:netrw_dirhist_8='/home/tyler/dev/projects/names/server'
+let g:netrw_dirhist_7='/home/tyler/dev/projects/names'
+let g:netrw_dirhist_6='/home/tyler/dev/projects/names/server'
+let g:netrw_dirhist_5='/home/tyler/dev/projects/names'
+let g:netrw_dirhist_4='/home/tyler/dev/projects/names/server'
