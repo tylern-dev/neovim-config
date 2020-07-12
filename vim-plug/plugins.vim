@@ -17,6 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Theme
     Plug 'joshdick/onedark.vim'
     Plug 'gruvbox-community/gruvbox'
+    Plug 'Rigellute/shades-of-purple.vim'
+    Plug 'drewtempelmeyer/palenight.vim'
     " Intellisense 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -42,8 +44,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
 
 
+    " Git integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 
-
+    
     call plug#end()
 
 
