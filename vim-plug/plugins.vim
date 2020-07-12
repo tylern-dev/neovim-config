@@ -23,4 +23,27 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
+    " fzf
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+		Plug 'junegunn/fzf.vim'
+		Plug 'airblade/vim-rooter'    
+
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+
+    "Rainbow bracket pairs
+    Plug  'junegunn/rainbow_parentheses.vim'
+
+    " Startify
+    Plug 'mhinz/vim-startify'
+
+
+
+
     call plug#end()
+
+
